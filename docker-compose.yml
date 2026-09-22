@@ -1,0 +1,7 @@
+services:
+  povkita:
+    build: .
+    container_name: povkita
+    ports:
+      - "8081:80"
+    restart: unless-stopped
